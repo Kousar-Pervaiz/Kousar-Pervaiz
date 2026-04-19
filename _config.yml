@@ -1,140 +1,148 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+# repository: Git repository where your resume will be hosted
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Kousar Pervaiz
+title: Full-Stack Software Engineer & CS Student
+email: kousarpervaiz22@gmail.com
+phone: +92 321-679-0115
+# website: (optional)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+linkedin_username: Kousar Pervaiz
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+about_content: |
+  I am a Computer Science student at LUMS (expected June 2026) on the Dean's Honour List,
+  with hands-on experience building production full-stack systems. I have worked across
+  healthcare tech, digital accessibility, and consumer platforms, owning features end-to-end
+  on small engineering teams. I enjoy clean architecture, real-time systems, and applying
+  ML/AI to real-world problems.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        title: SensAI (Sehat Sanjha) – AI in Healthcare Initiative, LUMS
+        sub_title: Full-Stack Software Engineer
+        caption: April 2025 – September 2025
+        description: |
+          - Shipped production features end-to-end on a small engineering team, building a scalable
+            full-stack system with React.js, Node.js, GraphQL, and AWS DynamoDB following clean
+            architecture principles.
+          - Designed and implemented RESTful APIs and secure data workflows with Auth0 authentication,
+            supporting real-time clinical decision-making for healthcare providers.
+          - Conducted code reviews, wrote maintainable and well-tested code, and collaborated closely
+            with team members to ensure software quality and reliability in production.
+
+      - layout: right
+        title: Tandurust Pakistan, LUMS
+        sub_title: Software Engineer – HCI & Digital Accessibility
+        caption: January 2025 – May 2025
+        description: |
+          - Led end-to-end product development of a healthcare application for low-literacy users,
+            driving requirements gathering, system design, and feature specification across multiple
+            iterations.
+          - Conducted mixed-methods research with 50+ participants across three government hospitals,
+            translating real user behavior into product decisions from first principles.
+          - Led multi-phase usability testing, producing structured evaluation frameworks that informed
+            iterative design and development cycles.
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: HerSafar – Safe Mobility Platform
+        caption: July 2025 – Present
+        description: |
+          Flutter, Node.js, Python, PostgreSQL, NLP
+          - Architecting a production mobile application with NLP-based Urdu speech recognition,
+            spatial route optimization, and real-time safety alert systems (SWGI Student Research
+            Grant 2025–26).
+          - Designed scalable backend in Node.js with PostgreSQL, applying clean architecture patterns;
+            shipped end-to-end from research to deployed product with full ownership on a small team.
+
+      - layout: left
+        title: UstaadOnline – Tutoring Marketplace
+        link: https://ustaadonline.com
+        link_text: ustaadonline.com
+        caption: January 2025 – May 2025
+        description: |
+          Node.js, Express.js, React.js, MongoDB, WebSockets
+          - Shipped a live, production tutoring marketplace connecting learners globally; owned backend
+            APIs, real-time WebSocket communication, and automated scheduling algorithms end-to-end.
+          - Applied software engineering best practices including code reviews, modular architecture,
+            and iterative agile delivery to maintain a scalable, maintainable codebase on a small team.
+
+      - layout: left
+        title: ColorGrid – Real-Time Multiplayer Game
+        additional_links:
+          - title: colorgrid-game on GitHub
+            icon: fab fa-github
+            url: https://github.com/kousarpervaiz/colorgrid-game
+        caption: Spring 2025
+        description: |
+          Node.js, Express.js, React.js, MongoDB, Socket.IO
+          - Built a full-stack real-time 2-player game with Socket.IO for live match synchronization,
+            implementing matchmaking, game state management, and leaderboard systems.
+          - Designed RESTful APIs and MongoDB schema for user profiles, game history, and coin-based
+            reward system; handled real-time socket events end-to-end across client and server.
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        title: Lahore University of Management Sciences (LUMS)
+        sub_title: BS Computer Science | Dean's Honour List
+        caption: September 2022 – June 2026 (Expected)
+        description: |
+          Relevant Coursework: Data Structures & Algorithms, Software Engineering, Distributed Systems,
+          Databases, Operating Systems, Machine Learning, Deep Learning, Computer Vision,
+          Human-Computer Interaction
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Skills
+    layout: text
+    content: |
+      **Languages:** Python, JavaScript, TypeScript, C++, SQL, Java, Dart, HTML/CSS
+
+      **Frameworks & Libraries:** Flask, React.js, Node.js, Express.js, Flutter, PyTorch, TensorFlow,
+      OpenCV, Scikit-Learn
+
+      **Databases:** PostgreSQL, BigQuery, MongoDB, AWS DynamoDB
+
+      **Infrastructure & Tools:** Docker, Google Cloud Platform (GCP), Git, GraphQL, Auth0, CI/CD
+
+      **ML/AI:** YOLOv8, Keras, Google Gemini API, NLP, Computer Vision, Feature Engineering
+
+      **Engineering Practices:** Clean architecture, test-driven development, code reviews, agile,
+      scalable system design
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"
